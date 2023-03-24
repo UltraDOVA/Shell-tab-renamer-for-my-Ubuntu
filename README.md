@@ -13,6 +13,9 @@ PS1=$(titre $PS1)
 
 Change the values of $tab and $suffixes in the .rename.cfg file.
 
+An exemple of what you can achieve :
+
+![alt text](https://media.discordapp.net/attachments/444559402276618251/1088928555175522385/image.png)
 
 Once of my bigest issue with Ubuntu is the unavailability to change the name of shell tabs.
 Recently, instead of being serious at work, I'decided to do some research and try to fix this. That's how I ended up with this project
