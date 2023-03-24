@@ -4,12 +4,11 @@ Small script to change the name of your shell tab when it's created.
 
 Place the .rename.cfg file in your home directory (or elsewhere but beware of the source command).
 
-Add theses 3 lines in your .bashrc.
+Add theses 2 lines in your .bashrc.
 
 ```shell=
 source ~/.renamer.cfg
 PS1=$(titre $PS1)
-PS1=$(addSuffix $PS1)
 ```
 
 Change the values of $tab and $suffixes in the .rename.cfg file.
@@ -49,3 +48,12 @@ We got all the elements that we need to implement our function.
 
 
 There's a bonus function in the .rename.cfg file that can add a suffix to your username. This function can be easily edited to add a suffix/prefix to any tag.
+
+If you want to add this function, add this line in addition to the others.
+
+
+```shell=
+source ~/.renamer.cfg
+PS1=$(titre $PS1)
+PS1=$(addSuffix $PS1)
+```
